@@ -1,5 +1,5 @@
 # autoZy Chrome Plugin
-A chrome plugin which does most of the ZyBooks work for you.
+A chrome plugin which does most of the tedious ZyBooks work for you.
 
 This is forked and worked upon https://github.com/davext whom did most of the work, i have only fixed it and made it work on the current site
 
