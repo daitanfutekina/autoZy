@@ -31,13 +31,12 @@ It selects all the answers and since the correct answer is in it too, the webpag
 
 
 ## Short Answer (Experimental) 
-It copies all the answers into the boxes but requires the users to tab in the box of then answer first then click check. I tried to make it work out of the box but it looks like it's a chrome-plugin limitation. I got the code to work outside of the plugin. So for now we're gonna have to live with it until I figure out a different solution.
+It displays the answer, and then pastes in back in the slot. havent tested yet with ones that have mutiple correct answers
 
 
-The plugin shows "AutoZy Loaded" in console once it loads. To open console, open developer tools and select console. If you run into any problems, feel free fo submit an issue. 
 
 
-# Disclaimer 
+# legal Disclaimer 
 I built this as a proof of concept. Please do your homework to make the most out of your class.
 THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, ACADEMIC INTEGRITY VIOLATIONS, OR PROFITS; OR BUSINESS INTERRUPTION)
 HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
