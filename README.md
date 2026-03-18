@@ -1,6 +1,8 @@
 # autoZy Chrome Plugin
 A chrome plugin which does most of the ZyBooks work for you.
 
+This is forked and worked upon https://github.com/davext whom did most of the work, i have only fixed it and made it work on the current site
+
 ## What Works?
 So far it can
 * Solve the animations
@@ -18,9 +20,6 @@ This plugin is not in the chrome store so you will have to install it manually -
 3- Load unpacked and select the root folder of the plugin.
 
 
-# Big Brother
-I decided to not track usage for the plugin. It's completly local and it stays that way. The plugin does not log your online behavior and is only activated on ZyBooks domains.
-
 # How It Works?
 ## Animation
 It starts the animation on double speed, skips through the animation automatically.
@@ -34,8 +33,6 @@ It selects all the answers and since the correct answer is in it too, the webpag
 ## Short Answer (Experimental) 
 It copies all the answers into the boxes but requires the users to tab in the box of then answer first then click check. I tried to make it work out of the box but it looks like it's a chrome-plugin limitation. I got the code to work outside of the plugin. So for now we're gonna have to live with it until I figure out a different solution.
 
-
-# Debugging
 
 The plugin shows "AutoZy Loaded" in console once it loads. To open console, open developer tools and select console. If you run into any problems, feel free fo submit an issue. 
 
