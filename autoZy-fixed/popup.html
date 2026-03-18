@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 260px;
+      padding: 12px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      margin: 0;
+      background: #1a1a2e;
+      color: #eee;
+    }
+    h2 {
+      margin: 0 0 12px 0;
+      font-size: 18px;
+      text-align: center;
+      color: #e94560;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+      border: none;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+    }
+    button:hover {
+      transform: translateY(-1px);
+    }
+    button:active {
+      transform: translateY(0);
+    }
+    #solveAll {
+      background: #e94560;
+      color: white;
+    }
+    #solveAll:hover { background: #d63851; }
+    #solveAnimation {
+      background: #0f3460;
+      color: white;
+    }
+    #solveAnimation:hover { background: #1a4a7a; }
+    #solveMC {
+      background: #0f3460;
+      color: white;
+    }
+    #solveMC:hover { background: #1a4a7a; }
+    #solveSA {
+      background: #0f3460;
+      color: white;
+    }
+    #solveSA:hover { background: #1a4a7a; }
+    .footer {
+      text-align: center;
+      font-size: 10px;
+      color: #555;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h2>AutoZy</h2>
+  <button id="solveAll">Solve All</button>
+  <button id="solveAnimation">Solve Animations</button>
+  <button id="solveMC">Solve Multiple Choice</button>
+  <button id="solveSA">Solve Short Answer</button>
+  <div class="footer">v1.0.0</div>
+  <script src="popup.js"></script>
+</body>
+</html>
