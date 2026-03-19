@@ -9,6 +9,11 @@ So far it can
 * Solve multiple choice
 * Solve the short answer questions
 
+Currently in testing
+* Clickables
+* Drag and Drops
+* Table entries
+
 # Installation
 This plugin is not in the chrome store so you will have to install it manually -- which is not hard.
 0- Clone or download this repo.
